@@ -1,0 +1,12 @@
+import pandas as pd
+import numpy as np
+
+# Пример анализа данных с использованием библиотеки Pandas
+data = {
+    'Name': ['John', 'Anna', 'Peter', 'Linda'],
+    'Age': [25, 30, 35, 40],
+    'City': ['New York', 'Paris', 'London', 'Berlin']
+}
+
+df = pd.DataFrame(data)
+print(df.describe())
